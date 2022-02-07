@@ -1,0 +1,67 @@
+.herro{
+   background-color: #F2F2F2;
+    padding-top: 90px;
+    background-image: url(../images/hero-bg.png);
+  position: relative;
+  z-index: -1;
+    // background-color: #fff;
+    background-repeat: no-repeat;
+   
+    background-position: calc(50% + 550px)  calc( 50% - 90px);
+      padding-bottom: 357px;
+
+  
+
+}
+
+.herro{
+    
+    position: relative;
+    z-index: 1;
+}
+
+
+.herro__box__little-box{
+  background-color:#F2F2F2; 
+    margin-top: 170px;
+    width: 447px;
+    // margin-bottom: 470px;
+    // padding-bottom: 250px;
+    
+       
+     
+}
+
+.herro__box__little-box__herro{
+    font-size: 56px;
+    color: #2D314D;
+    letter-spacing: -1px;
+    line-height: 64px;
+    margin: 0px;
+    margin-bottom: 24px;
+}
+
+.herro__box__little-box__poragraff{
+    margin: 0px;
+    font-size: 18px;
+    color: 
+    #9597A5;
+    letter-spacing: -.28px;
+    line-height: 28px;
+    margin-bottom: 44px;
+
+
+
+
+}
+
+
+
+@media only screen and (max-width:426px){
+ .herro{ background-position: calc(50% + 127px)  calc( 50% - 90px);
+
+  .herro__box__little-box{
+    margin-bottom: -500px;
+  }
+}
+}
