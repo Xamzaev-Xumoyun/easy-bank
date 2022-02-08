@@ -93,8 +93,8 @@ z-index: 999;
 @media only screen and (max-width:426px){
 
     .header{
-        position: relative;
-        z-index: 2;
+        position: fixed;
+        z-index: 6;
     }
 
     .header__box{

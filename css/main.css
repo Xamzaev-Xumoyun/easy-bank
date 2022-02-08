@@ -505,8 +505,8 @@ header {
 
 @media only screen and (max-width: 426px) {
   .header {
-    position: relative;
-    z-index: 2;
+    position: fixed;
+    z-index: 6;
   }
   .header__box {
     padding: 22px 0px;
@@ -883,11 +883,37 @@ header {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
+  .latest__item__image {
+    width: 100%;
+  }
   .latest__item {
     background-color: #fff;
     border-radius: 5px;
+    width: 327px;
     margin: 0 auto;
     margin-bottom: 24px;
+  }
+  .latest__item__text {
+    width: 265px;
+    margin-left: 24px;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -0.285714px;
+    color: #2D314D;
+    -webkit-transition: color 0.4s ease;
+    transition: color 0.4s ease;
+  }
+  .latest__item__text:hover {
+    color: #30C88F;
+  }
+  .latest__item__poragraff {
+    width: 265px;
+    margin-left: 24px;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: -0.203125px;
+    color: #9597A5;
   }
 }
 
