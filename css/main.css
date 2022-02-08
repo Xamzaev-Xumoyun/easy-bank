@@ -591,13 +591,15 @@ header {
     background-image: url(../images/hero-bg.png);
     background-repeat: no-repeat;
     background-size: 170%;
-    background-position: calc(50% + 63px) calc( 50% - 290px);
+    background-position: calc(50% + 63px) calc( 50% - 301px);
+    padding: 0px;
+    padding-bottom: 316px;
   }
   .herro__box__little-box {
     background-color: #F2F2F2;
     max-width: 447px;
     width: 100%;
-    margin-top: 539px;
+    margin-top: 650px;
   }
   .herro__box__little-box__herro {
     font-size: 40px;
