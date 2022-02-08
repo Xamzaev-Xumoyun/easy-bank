@@ -12,6 +12,7 @@ z-index: 999;
    justify-content: space-between;
     align-items: center;
     vertical-align: middle;
+    
 }
 
 .header__list{
@@ -94,6 +95,10 @@ z-index: 999;
     .header{
         position: relative;
         z-index: 2;
+    }
+
+    .header__box{
+        padding: 22px 0px;
     }
     .header__list{
         display: none;

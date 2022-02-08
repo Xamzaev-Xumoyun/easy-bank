@@ -39,6 +39,7 @@ padding: 0px;
 
 .latest__item{
     background-color: #fff;
+    border-radius: 5px;
 }
 
 .latest__item__text{
@@ -63,4 +64,35 @@ margin-left: 24px;
     line-height: 18px;
     letter-spacing: -0.203125px;
     color: #9597A5;
+}
+
+
+@media only screen and (max-width:426px){
+    .latest__text{
+        margin: 0px;
+        font-weight: 100;
+        font-size: 32px;
+        line-height: 37.6px;
+        letter-spacing: -.57px;
+        margin-bottom: 40px;
+        color: 
+        #2D314D;
+        text-align: center;
+    }
+
+    .latest__list{
+        display: flex;
+        justify-content: space-between;
+    list-style: none;
+    padding: 0px;
+    flex-wrap: wrap;
+    }
+
+    .latest__item{
+        background-color: #fff;
+        border-radius: 5px;
+        
+        margin: 0 auto;
+        margin-bottom: 24px;
+    }
 }
